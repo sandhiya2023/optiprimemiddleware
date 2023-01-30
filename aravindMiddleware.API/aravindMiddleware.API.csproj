@@ -1,0 +1,28 @@
+﻿<Project Sdk="Microsoft.NET.Sdk.Web">
+
+  <PropertyGroup>
+    <TargetFramework>net6.0</TargetFramework>
+    <Nullable>enable</Nullable>
+    <ImplicitUsings>enable</ImplicitUsings>
+  </PropertyGroup>
+
+  <ItemGroup>
+    <Compile Remove="OpticalPortal.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <PackageReference Include="FastReport.OpenSource" Version="2022.2.2" />
+    <PackageReference Include="FastReport.OpenSource.Export.PdfSimple" Version="2022.2.2" />
+    <PackageReference Include="FastReport.OpenSource.Web" Version="2022.2.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Authentication.JwtBearer" Version="6.0.2" />
+    <PackageReference Include="Microsoft.AspNetCore.Mvc.NewtonsoftJson" Version="6.0.2" />
+    <PackageReference Include="Newtonsoft.Json" Version="13.0.1" />
+    <PackageReference Include="RestSharp" Version="106.11.7" />
+    <PackageReference Include="Swashbuckle.AspNetCore" Version="6.3.0" />  
+  </ItemGroup>
+
+  <ItemGroup>
+    <ProjectReference Include="..\aravindMiddleware.Portal\aravindMiddleware.Business.csproj" />
+  </ItemGroup>
+
+</Project>
