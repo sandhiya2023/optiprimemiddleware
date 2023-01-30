@@ -3365,7 +3365,7 @@ namespace aravindMiddleware.Data
                     cmd.Parameters.AddWithValue("pOrgId", objInput.orgid);
                     cmd.Parameters.AddWithValue("pLocationId", objInput.locationid);
                     cmd.Parameters.AddWithValue("pStoreId", objInput.storeid);
-                    cmd.Parameters.AddWithValue("pCounterId", objInput.pCounterId);
+                    cmd.Parameters.AddWithValue("pCounterId", objInput.counterid);
                     
                     cmd.Parameters.AddWithValue("pCounterName", objInput.countername);
                     cmd.Parameters.AddWithValue("pActive", objInput.active);

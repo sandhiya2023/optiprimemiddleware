@@ -865,6 +865,7 @@ namespace aravindMiddleware.Data
         public string orgid { get; set; }
         public string locationid { get; set; }
         public string storeid { get; set; }
+        public string counterid { get; set; }
         public string countername { get; set; }
         public string active { get; set; }
         public string shortname { get; set; }
