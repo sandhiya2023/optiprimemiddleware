@@ -859,7 +859,7 @@ namespace aravindMiddleware.Data
         public string active { get; set; }
 
     }
-
+    //newly added model
     public class crudCounterInput
     {
         public string orgid { get; set; }
