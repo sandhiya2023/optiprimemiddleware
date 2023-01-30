@@ -6,6 +6,7 @@ using System.Web;
 
 namespace aravindMiddleware.Data
 {
+    //rashmi1
     public class UserLogin
     {
         public string orgid { get; set; }
